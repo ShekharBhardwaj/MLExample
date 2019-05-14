@@ -3,7 +3,7 @@ const outputs = [];
 
 const onScoreUpdate = (dropPosition, bounciness, size, bucketLabel) => {
     outputs.push([dropPosition, bounciness, size, bucketLabel]);
-    // console.log(outputs);
+    console.log(outputs);
 }
 
 const distance = (pointA, pointB) => {

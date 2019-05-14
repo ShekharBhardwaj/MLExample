@@ -1,5 +1,5 @@
 const outputs = [];
-const predictionPoint = 450;
+const predictionPoint = 401;
 const k = 3;
 
 const onScoreUpdate = (dropPosition, bounciness, size, bucketLabel) => {
